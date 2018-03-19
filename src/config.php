@@ -11,7 +11,7 @@ return [
 
         'commands' => [
             // 抓取远程资源
-            \Landers\LaravelAms\Commands\ResourceFetchCommand::class,
+            \Landers\AmsApp\Commands\ResourceFetchCommand::class,
         ],
 
         'crontabs' => [

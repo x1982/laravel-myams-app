@@ -1,5 +1,5 @@
 <?php
-namespace Landers\LaravelAms\Commands;
+namespace Landers\AmsApp\Commands;
 
 use Landers\LaravelAms\Constraints\Commands\BaseCommand;
 use Landers\LaravelAms\Supports\ResourceFetch;
