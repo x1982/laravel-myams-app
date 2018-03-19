@@ -1,5 +1,5 @@
 <?php
-namespace Landers\AmsApp\Modules\Kuaidi100;
+namespace Landers\AmsApp\Modules\Common\Kuaidi100;
 
 class Kuaidi100Service
 {

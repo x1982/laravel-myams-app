@@ -1,5 +1,5 @@
 <?php
-namespace Landers\AmsApp\Modules\Geetest;
+namespace Landers\AmsApp\Modules\Common\Geetest;
 
 use Illuminate\Routing\Controller as LaravelController;
 

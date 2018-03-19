@@ -27,6 +27,7 @@ class RouteServiceProvider extends BaseRouteServiceProvider
     protected function mapCommonRoutes()
     {
         Route::middleware('web')
+            ->namespace('Landers\AmsApp\Modules\Common')
             ->group(__DIR__ . '/../Routes/common.php');
     }
 }

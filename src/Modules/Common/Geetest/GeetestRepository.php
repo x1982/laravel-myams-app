@@ -1,5 +1,5 @@
 <?php
-namespace Landers\AmsApp\Modules\Geetest;
+namespace Landers\AmsApp\Modules\Common\Geetest;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cache;
