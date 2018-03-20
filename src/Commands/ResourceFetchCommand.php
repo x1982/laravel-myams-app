@@ -2,7 +2,7 @@
 namespace Landers\AmsApp\Commands;
 
 use Landers\LaravelAms\Constraints\Commands\BaseCommand;
-use Landers\LaravelAms\Supports\ResourceFetch;
+use Landers\AmsApp\Supports\ResourceFetch;
 use Landers\Substrate2\Utils\Path;
 use Landers\Substrate2\Utils\Str;
 
