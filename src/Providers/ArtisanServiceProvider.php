@@ -8,8 +8,8 @@ class ArtisanServiceProvider extends BaseArtisanServiceProvider
 {
     public function register()
     {
-        $this->commands = package_config('package.commands', []);
-        $this->crontabs = package_config('package.crontabs', []);
+        $this->commands = package_config('commands', []);
+        $this->crontabs = package_config('crontabs', []);
 
         parent::register();
     }

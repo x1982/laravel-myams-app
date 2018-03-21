@@ -7,7 +7,7 @@ class BootstrapProvider extends BaseBootstrapProvider
 {
     public function boot( )
     {
-        $this->providers = package_config('package.providers', []);
+        $this->providers = package_config('providers', []);
         $this->registerAppServiceProvider();
     }
 }
