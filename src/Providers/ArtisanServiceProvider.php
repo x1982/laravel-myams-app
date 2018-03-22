@@ -6,11 +6,8 @@ use Landers\LaravelAms\Constraints\Providers\BaseArtisanServiceProvider;
 
 class ArtisanServiceProvider extends BaseArtisanServiceProvider
 {
-    public function register()
-    {
-        $this->commands = package_config('commands', []);
-        $this->crontabs = package_config('crontabs', []);
-
-        parent::register();
-    }
+    protected static $commands = [
+        // 抓取远程资源
+        \Landers\AmsApp\Commands\ResourceFetchCommand::class,
+    ];
 }
